@@ -76,5 +76,7 @@ int main(int argc, char *argv[]) {
             break;
         }
         add_history(line);
+
+        printf("your line was: %s\n", line);
     }
 }
